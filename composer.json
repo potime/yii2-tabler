@@ -1,0 +1,21 @@
+{
+    "name": "potime/yii2-tabler",
+    "description": "Boostrap Tabler UI for Yii 2.0 Framework",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","boostrap","tabler"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "Ivan Kang",
+            "email": "ivan@potime.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "potime\\tabler\\": "src"
+        }
+    }
+}
