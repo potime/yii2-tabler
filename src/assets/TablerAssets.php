@@ -18,6 +18,7 @@ class TablerAssets extends \yii\web\AssetBundle
 
     public $css = [
         'css/tabler.min.css',
+        'css/tabler-vendors.min.css',
     ];
     public $js = [
         'js/tabler.min.js',
