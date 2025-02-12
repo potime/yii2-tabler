@@ -1,13 +1,11 @@
 /*!
-* Tabler v1.0.0-beta24 (https://tabler.io)
-* @version 1.0.0-beta24
+* Tabler v1.0.0 (https://tabler.io)
+* @version 1.0.0
 * @link https://tabler.io
 * Copyright 2018-2025 The Tabler Authors
 * Copyright 2018-2025 codecalm.net Paweł Kuna
 * Licensed under MIT (https://github.com/tabler/tabler/blob/master/LICENSE)
 */
-/* prettier-ignore */
-/* prettier-ignore */
 .payment {
   height: 2.5rem;
   aspect-ratio: 1.66666;
@@ -291,6 +289,14 @@
   background-image: url("../img/payments/epayco-dark.svg");
 }
 
+.payment-provider-esewa {
+  background-image: url("../img/payments/esewa.svg");
+}
+
+.payment-provider-esewa-dark {
+  background-image: url("../img/payments/esewa-dark.svg");
+}
+
 .payment-provider-ethereum {
   background-image: url("../img/payments/ethereum.svg");
 }
@@ -305,6 +311,14 @@
 
 .payment-provider-eway-dark {
   background-image: url("../img/payments/eway-dark.svg");
+}
+
+.payment-provider-fonepay {
+  background-image: url("../img/payments/fonepay.svg");
+}
+
+.payment-provider-fonepay-dark {
+  background-image: url("../img/payments/fonepay-dark.svg");
 }
 
 .payment-provider-giropay {
@@ -355,12 +369,28 @@
   background-image: url("../img/payments/ideal-dark.svg");
 }
 
+.payment-provider-imepay {
+  background-image: url("../img/payments/imepay.svg");
+}
+
+.payment-provider-imepay-dark {
+  background-image: url("../img/payments/imepay-dark.svg");
+}
+
 .payment-provider-jcb {
   background-image: url("../img/payments/jcb.svg");
 }
 
 .payment-provider-jcb-dark {
   background-image: url("../img/payments/jcb-dark.svg");
+}
+
+.payment-provider-khalti {
+  background-image: url("../img/payments/khalti.svg");
+}
+
+.payment-provider-khalti-dark {
+  background-image: url("../img/payments/khalti-dark.svg");
 }
 
 .payment-provider-klarna {

@@ -1,13 +1,11 @@
 /*!
-* Tabler v1.0.0-beta24 (https://tabler.io)
-* @version 1.0.0-beta24
+* Tabler v1.0.0 (https://tabler.io)
+* @version 1.0.0
 * @link https://tabler.io
 * Copyright 2018-2025 The Tabler Authors
 * Copyright 2018-2025 codecalm.net Paweł Kuna
 * Licensed under MIT (https://github.com/tabler/tabler/blob/master/LICENSE)
 */
-/* prettier-ignore */
-/* prettier-ignore */
 /* Functional styling;
  * These styles are required for noUiSlider to function.
  * You don't need to change these rules to apply your design.
@@ -1131,10 +1129,18 @@
   color: #8a97ab;
 }
 
-.ts-wrapper.multi .ts-control > div {
+.ts-wrapper.multi .ts-control > div,
+.ts-wrapper.multi.disabled .ts-control > div {
   background: var(--tblr-bg-surface-secondary);
   border: 1px solid var(--tblr-border-color);
   color: var(--tblr-body-color);
+}
+
+.ts-wrapper.disabled .ts-control {
+  opacity: 1;
+}
+.ts-wrapper.disabled .ts-control > div.item {
+  color: var(--tblr-gray-500);
 }
 
 .apexcharts-tooltip {
