@@ -14,7 +14,7 @@ namespace potime\tabler\assets;
 
 class TablerAssets extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@potime/tabler/dist';
+    public $sourcePath = '@npm/tabler--core/dist';
 
     public $css = [
         'css/tabler.min.css',
